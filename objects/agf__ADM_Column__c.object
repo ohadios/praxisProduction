@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Auto__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field is to automate the update of column when case is closed</description>
+        <externalId>false</externalId>
+        <inlineHelpText>don&apos;t use, it&apos;s for automation</inlineHelpText>
+        <label>Auto?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+</CustomObject>

@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object stores information about the open job positions at our company.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Read</externalSharingModel>
+    <label>Position</label>
+    <nameField>
+        <label>Position Title</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Positions</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <searchLayouts/>
+    <sharingModel>Read</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Apex__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Apex</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Java__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Java</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Full Time</fullName>
+                    <default>false</default>
+                    <label>Full Time</label>
+                </value>
+                <value>
+                    <fullName>Part Time</fullName>
+                    <default>false</default>
+                    <label>Part Time</label>
+                </value>
+                <value>
+                    <fullName>Internship</fullName>
+                    <default>false</default>
+                    <label>Internship</label>
+                </value>
+                <value>
+                    <fullName>Contractor</fullName>
+                    <default>false</default>
+                    <label>Contractor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Csharp__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>C#</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New Position</fullName>
+                    <default>true</default>
+                    <label>New Position</label>
+                </value>
+                <value>
+                    <fullName>Pending Approval</fullName>
+                    <default>false</default>
+                    <label>Pending Approval</label>
+                </value>
+                <value>
+                    <fullName>Open - Approved</fullName>
+                    <default>false</default>
+                    <label>Open - Approved</label>
+                </value>
+                <value>
+                    <fullName>Closed - Filled</fullName>
+                    <default>false</default>
+                    <label>Closed - Filled</label>
+                </value>
+                <value>
+                    <fullName>Closed - Not Approved</fullName>
+                    <default>false</default>
+                    <label>Closed - Not Approved</label>
+                </value>
+                <value>
+                    <fullName>Closed - Canceled</fullName>
+                    <default>false</default>
+                    <label>Closed - Canceled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Hire_By__c</fullName>
+        <defaultValue>TODAY() + 90</defaultValue>
+        <externalId>false</externalId>
+        <label>Hire By</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Max_Pay__c</fullName>
+        <externalId>false</externalId>
+        <label>Max Pay</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Min_Pay__c</fullName>
+        <externalId>false</externalId>
+        <label>Min Pay</label>
+        <precision>9</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Location__c</fullName>
+        <externalId>false</externalId>
+        <label>Location</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Remote - US</fullName>
+                    <default>false</default>
+                    <label>Remote - US</label>
+                </value>
+                <value>
+                    <fullName>Remote - Worldwide</fullName>
+                    <default>false</default>
+                    <label>Remote - Worldwide</label>
+                </value>
+                <value>
+                    <fullName>Richmond, VA</fullName>
+                    <default>false</default>
+                    <label>Richmond, VA</label>
+                </value>
+                <value>
+                    <fullName>Atlanta, GA</fullName>
+                    <default>false</default>
+                    <label>Atlanta, GA</label>
+                </value>
+                <value>
+                    <fullName>New York, NY</fullName>
+                    <default>false</default>
+                    <label>New York, NY</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Days_Open__c</fullName>
+        <description>The number of days a position has been (or was) open.</description>
+        <externalId>false</externalId>
+        <formula>IF( ISNULL( Close_Date__c ) ,
+             TODAY()  -  Open_Date__c ,
+             Close_Date__c  -  Open_Date__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Open</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Open_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Open Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Close_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Close Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>JavaScript__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>JavaScript</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hiring_Manager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Hiring Manager</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Positions</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Functional_Area__c</fullName>
+        <externalId>false</externalId>
+        <label>Functional Area</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Jr. Salesforce Administrator</fullName>
+                    <default>false</default>
+                    <label>Jr. Salesforce Administrator</label>
+                </value>
+                <value>
+                    <fullName>Salesforce Administrator</fullName>
+                    <default>false</default>
+                    <label>Salesforce Administrator</label>
+                </value>
+                <value>
+                    <fullName>Sr. Salesforce Administrator</fullName>
+                    <default>false</default>
+                    <label>Sr. Salesforce Administrator</label>
+                </value>
+                <value>
+                    <fullName>Jr. Salesforce Developer</fullName>
+                    <default>false</default>
+                    <label>Jr. Salesforce Developer</label>
+                </value>
+                <value>
+                    <fullName>Salesforce Developer</fullName>
+                    <default>false</default>
+                    <label>Salesforce Developer</label>
+                </value>
+                <value>
+                    <fullName>Sr. Salesforce Developer</fullName>
+                    <default>false</default>
+                    <label>Sr. Salesforce Developer</label>
+                </value>
+                <value>
+                    <fullName>Solution Architect</fullName>
+                    <default>false</default>
+                    <label>Solution Architect</label>
+                </value>
+                <value>
+                    <fullName>Technical Architect</fullName>
+                    <default>false</default>
+                    <label>Technical Architect</label>
+                </value>
+                <value>
+                    <fullName>Sales and Account Management</fullName>
+                    <default>false</default>
+                    <label>Sales and Account Management</label>
+                </value>
+                <value>
+                    <fullName>Finance</fullName>
+                    <default>false</default>
+                    <label>Finance</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Job_Description__c</fullName>
+        <description>High-level description of the job and what its duties are.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>High-level description of the job and what its duties are.</inlineHelpText>
+        <label>Job Description</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Skills_Required__c</fullName>
+        <externalId>false</externalId>
+        <label>Skills Required</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Travel_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Travel Required</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Publicly_Visible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Positions where this checkbox is checked and which are active will appear on the Jobs community</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Positions where this checkbox is checked and which are active will appear on the Jobs community</inlineHelpText>
+        <label>Publicly Visible</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Responsibilities__c</fullName>
+        <externalId>false</externalId>
+        <label>Responsibilities</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Educational_Requirements__c</fullName>
+        <externalId>false</externalId>
+        <label>Educational Requirements</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <recordTypes>
+        <fullName>Standard_Position</fullName>
+        <active>true</active>
+        <description>Record type for all non-IT positions</description>
+        <label>Standard Position</label>
+        <picklistValues>
+            <picklist>Functional_Area__c</picklist>
+            <values>
+                <fullName>Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jr%2E Salesforce Administrator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jr%2E Salesforce Developer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales and Account Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce Administrator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce Developer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution Architect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sr%2E Salesforce Administrator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sr%2E Salesforce Developer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Architect</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Location__c</picklist>
+            <values>
+                <fullName>Atlanta%2C GA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New York%2C NY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Remote - US</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Remote - Worldwide</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Richmond%2C VA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Closed - Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Filled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Not Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Position</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Open - Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Contractor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Full Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Part Time</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <validationRules>
+        <fullName>Min_Pay_Rule</fullName>
+        <active>true</active>
+        <description>Min Pay should never exceed Max Pay.</description>
+        <errorConditionFormula>Min_Pay__c  &gt;  Max_Pay__c</errorConditionFormula>
+        <errorDisplayField>Min_Pay__c</errorDisplayField>
+        <errorMessage>Min Pay cannot exceed Max Pay.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Close_Date_Rule</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND (
+    ISNULL(  Close_Date__c ),
+    OR (
+         ISPICKVAL(  Status__c , &quot;Closed - Filled&quot;),
+         ISPICKVAL(  Status__c , &quot;Closed - Not Approved&quot;))
+)</errorConditionFormula>
+        <errorDisplayField>Close_Date__c</errorDisplayField>
+        <errorMessage>Close Date must be specified when Status is set to &apos;Closed.&apos;</errorMessage>
+    </validationRules>
+</CustomObject>

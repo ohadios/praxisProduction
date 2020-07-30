@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Case_Closed_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Case Closed Comments</label>
+        <length>250</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_ID__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>To show related Case ID on Work Item</description>
+        <externalId>false</externalId>
+        <label>Case ID</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Work</relationshipLabel>
+        <relationshipName>Work</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>agf__Product_Tag__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Customer Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Initial_story_points__c</fullName>
+        <description>Holds the original story point that was given to the story</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please ensure this is populated to enable us to better estimate and understand the effort required for a similar task.</inlineHelpText>
+        <label>Initial story points</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <validationRules>
+        <fullName>Case_rule_Closure</fullName>
+        <active>true</active>
+        <description>REquired closing comments added to the description in the work item.</description>
+        <errorConditionFormula>AND(
+ISCHANGED(agf__Status__c),
+ISBLANK(agf__Details__c ),
+NOT(isblank ( Case_ID__c )),
+ISPICKVAL(agf__Status__c ,&apos;Closed&apos;) 
+)</errorConditionFormula>
+        <errorMessage>This work item is associated with a support case. Please ensure that there are case closing comments added to the description in the work item.</errorMessage>
+    </validationRules>
+</CustomObject>
