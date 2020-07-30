@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <compactLayouts>
+        <fullName>InvoiceCompactLayout</fullName>
+        <fields>Name</fields>
+        <fields>breadwinner_qbo__Invoice_Date__c</fields>
+        <fields>breadwinner_qbo__Total__c</fields>
+        <fields>breadwinner_qbo__Due_Date__c</fields>
+        <fields>breadwinner_qbo__Amount_Due__c</fields>
+        <fields>breadwinner_qbo__Amount_Received__c</fields>
+        <fields>breadwinner_qbo__Status__c</fields>
+        <label>InvoiceCompactLayout</label>
+    </compactLayouts>
+</CustomObject>
